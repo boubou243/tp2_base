@@ -5,7 +5,7 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
         self.image = pygame.image.load('./assets/tank.png')
         self.rect = self.image.get_rect()
-        self.rect.center = (100, 100)
+        self.rect.center = (248, 149)
         self.speed = 6
 
     def update(self):
